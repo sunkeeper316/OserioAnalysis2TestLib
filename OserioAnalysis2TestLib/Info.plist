@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Please turn on Bluetooth ocare3 to receive scale data Our app uses bluetooth to find, connect and transfer data between different devices </string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Please turn on Bluetooth ocare3 to receive scale data Our app uses bluetooth to find, connect and transfer data between different devices </string>
 </dict>
 </plist>

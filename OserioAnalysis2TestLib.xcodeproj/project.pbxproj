@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0837192754B86300EEDF5A /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0837182754B86300EEDF5A /* TopBarView.swift */; };
+		4D08371F2754BBEC00EEDF5A /* TopBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08371E2754BBEC00EEDF5A /* TopBarView.xib */; };
+		4D0837212754C9BC00EEDF5A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0837202754C9BC00EEDF5A /* AddViewController.swift */; };
 		4D88302D26C3D14100CA6D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88302C26C3D14100CA6D8C /* AppDelegate.swift */; };
 		4D88302F26C3D14100CA6D8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88302E26C3D14100CA6D8C /* SceneDelegate.swift */; };
 		4D88303126C3D14100CA6D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88303026C3D14100CA6D8C /* ViewController.swift */; };
@@ -14,9 +17,29 @@
 		4D88303726C3D14100CA6D8C /* OserioAnalysis2TestLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D88303526C3D14100CA6D8C /* OserioAnalysis2TestLib.xcdatamodeld */; };
 		4D88303926C3D14400CA6D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88303826C3D14400CA6D8C /* Assets.xcassets */; };
 		4D88303C26C3D14400CA6D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D88303A26C3D14400CA6D8C /* LaunchScreen.storyboard */; };
+		4D88304A26C3D23B00CA6D8C /* SwiftScaleComm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88304926C3D23B00CA6D8C /* SwiftScaleComm.swift */; };
+		4DBC3CDA26C51EA30057D740 /* OserioScaleComm2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC3CD926C51EA20057D740 /* OserioScaleComm2.framework */; };
+		4DBC3CDB26C51EA30057D740 /* OserioScaleComm2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBC3CD926C51EA20057D740 /* OserioScaleComm2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4D88304726C3D16A00CA6D8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DBC3CDB26C51EA30057D740 /* OserioScaleComm2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4D0837182754B86300EEDF5A /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		4D08371E2754BBEC00EEDF5A /* TopBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopBarView.xib; sourceTree = "<group>"; };
+		4D0837202754C9BC00EEDF5A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4D88302926C3D14100CA6D8C /* OserioAnalysis2TestLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OserioAnalysis2TestLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D88302C26C3D14100CA6D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D88302E26C3D14100CA6D8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +49,9 @@
 		4D88303826C3D14400CA6D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D88303B26C3D14400CA6D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D88303D26C3D14400CA6D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88304426C3D16A00CA6D8C /* OserioAnalysis2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OserioAnalysis2.framework; path = OserioAnalysis2TestLib/OserioAnalysis2.framework; sourceTree = "<group>"; };
+		4D88304926C3D23B00CA6D8C /* SwiftScaleComm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftScaleComm.swift; sourceTree = "<group>"; };
+		4DBC3CD926C51EA20057D740 /* OserioScaleComm2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OserioScaleComm2.framework; path = OserioAnalysis2TestLib/OserioScaleComm2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBC3CDA26C51EA30057D740 /* OserioScaleComm2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,7 @@
 			children = (
 				4D88302B26C3D14100CA6D8C /* OserioAnalysis2TestLib */,
 				4D88302A26C3D14100CA6D8C /* Products */,
+				4D88304326C3D16A00CA6D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +86,13 @@
 		4D88302B26C3D14100CA6D8C /* OserioAnalysis2TestLib */ = {
 			isa = PBXGroup;
 			children = (
+				4D0837182754B86300EEDF5A /* TopBarView.swift */,
+				4D08371E2754BBEC00EEDF5A /* TopBarView.xib */,
 				4D88302C26C3D14100CA6D8C /* AppDelegate.swift */,
 				4D88302E26C3D14100CA6D8C /* SceneDelegate.swift */,
 				4D88303026C3D14100CA6D8C /* ViewController.swift */,
+				4D0837202754C9BC00EEDF5A /* AddViewController.swift */,
+				4D88304926C3D23B00CA6D8C /* SwiftScaleComm.swift */,
 				4D88303226C3D14100CA6D8C /* Main.storyboard */,
 				4D88303826C3D14400CA6D8C /* Assets.xcassets */,
 				4D88303A26C3D14400CA6D8C /* LaunchScreen.storyboard */,
@@ -68,6 +100,15 @@
 				4D88303526C3D14100CA6D8C /* OserioAnalysis2TestLib.xcdatamodeld */,
 			);
 			path = OserioAnalysis2TestLib;
+			sourceTree = "<group>";
+		};
+		4D88304326C3D16A00CA6D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC3CD926C51EA20057D740 /* OserioScaleComm2.framework */,
+				4D88304426C3D16A00CA6D8C /* OserioAnalysis2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +121,7 @@
 				4D88302526C3D14100CA6D8C /* Sources */,
 				4D88302626C3D14100CA6D8C /* Frameworks */,
 				4D88302726C3D14100CA6D8C /* Resources */,
+				4D88304726C3D16A00CA6D8C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +171,7 @@
 			files = (
 				4D88303C26C3D14400CA6D8C /* LaunchScreen.storyboard in Resources */,
 				4D88303926C3D14400CA6D8C /* Assets.xcassets in Resources */,
+				4D08371F2754BBEC00EEDF5A /* TopBarView.xib in Resources */,
 				4D88303426C3D14100CA6D8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +185,10 @@
 			files = (
 				4D88303126C3D14100CA6D8C /* ViewController.swift in Sources */,
 				4D88303726C3D14100CA6D8C /* OserioAnalysis2TestLib.xcdatamodeld in Sources */,
+				4D0837212754C9BC00EEDF5A /* AddViewController.swift in Sources */,
 				4D88302D26C3D14100CA6D8C /* AppDelegate.swift in Sources */,
+				4D88304A26C3D23B00CA6D8C /* SwiftScaleComm.swift in Sources */,
+				4D0837192754B86300EEDF5A /* TopBarView.swift in Sources */,
 				4D88302F26C3D14100CA6D8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +338,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q39S762VC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OserioAnalysis2TestLib",
+				);
 				INFOPLIST_FILE = OserioAnalysis2TestLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +362,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q39S762VC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OserioAnalysis2TestLib",
+				);
 				INFOPLIST_FILE = OserioAnalysis2TestLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
